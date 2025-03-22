@@ -43,7 +43,7 @@ background-position: center
 
 <style>
 .content-overlay {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 40px;
   border-radius: 10px;
   width: 80%;
@@ -107,35 +107,7 @@ background-position: center
 
 ---
 
-class: center, top
-background-image: url("pictures/7.png")
-background-size: cover
-background-position: center
 
-<div style="padding-top: 20px;">
-<h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); margin-bottom: 10px;">Wetlands - The Kidney of the Earth</h1>
-
-<h3 style="color: #a9e34b; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); margin-top: 0;">Monitoring and Conservation of Mangrove Wetlands in Greater Bay Area</h3>
-</div>
-
-<div style="position: absolute; bottom: 150px; left: 50px;">
-<span style="background-color: rgba(0,0,0,0.6); color: white; padding: 8px 15px; border-radius: 4px; font-weight: bold; font-size: 1.2em;">SEE THE UNSEEN</span>
-</div>
-
-<div style="position: absolute; bottom: 80px; left: 50px; text-align: left;">
-<p style="color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); margin: 5px 0;">Wenkai Song, Yifan Feng, Ruoyun Yu, Huangchen Luo, Ruonan Zhu</p>
-<p style="color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); margin: 5px 0;">25/03/2025</p>
-</div>
-
-<div style="position: absolute; bottom: 20px; right: 20px;">
-<p style="color: white; font-size: 0.8em; text-shadow: 1px 1px 1px rgba(0,0,0,0.8);">2 / 18</p>
-</div>
-
----
-
-
-
----
 
 # Problems
 
@@ -187,12 +159,69 @@ The Shenzhen-Hong Kong Cooperation Zone is implementing mangrove restoration ini
 
 ]
 
----
 
+---
 # Global Policy
 
+.panelset[
+
+.panel[.panel-name[Ramsar Convention]
+<span style="color:#2e7d32; font-size:1.2em; font-weight:bold">📜 Ramsar Convention on Wetlands</span>  
+
+- Signed in 1971  
+- 172 contracting parties (including China)  
+- Fourth Strategic Plan (2016-2024):  
+  - 4 overarching goals 
+  - Goal 1:   Addressing the Drivers of Wetland Loss and Degradation
+  - Goal 2:   Effectively Conserving and Managing the Ramsar Site Network
+  - Goal 3:   Wisely Using All Wetlands
+  - Goal 4:   Enhancing lmplementation
+<img src="pictures/Ramsar Convention1.png" style="float:right; width:150px; display:block; margin-bottom:10px;">
+<img src="pictures/Ramsar Convention2.png" style="float:right; width:150px; display:block;">
+
+[More info](https://www.wwt.org.uk/news-and-stories/blog/why-the-ramsar-convention-on-wetlands-matters-more-than-ever)
+]
+
+.panel[.panel-name[UN SDGs]
+<span style="color:#33691e; font-size:1.2em; font-weight:bold">🌍 Sustainable Development Goals</span>  
+
+- 75/169 SDG targets relate to wetlands  
+
+- Goal 6: Clean water and sanitation
+  - Target 6.6: Protect/restore water-related ecosystems with wetland focus by 2020
+
+- Goal 15: Life on land 
+  - Target 15.1: Prioritize wetland conservation & restoration by 2020
+<img src="pictures/UN SDGs.png" style="float:right; width:200px;">
+
+[SDGs Portal](https://sdgs.un.org/goals)
+]
+
+.panel[.panel-name[Other Frameworks]
+
+<span style="color:#1b5e20; font-size:1.2em; font-weight:bold">🌪️ Sendai Framework (2015-2030):</span>  
+- Priority 3: Invest in disaster resilience  
+  - Integrate wetlands in flood management  
+
+<span style="color:#1b5e20; font-size:1.2em; font-weight:bold">🏙️ World Cities Report 2020:</span>  
+- Recognize wetlands as blue-green infrastructure  
+
+<span style="color:#1b5e20; font-size:1.2em; font-weight:bold">🌐 2030 Agenda for Sustainable Development :</span>  
+- Wetlands' roles in:  
+  - Climate adaptation  
+  - Urban cooling  
+  - Biodiversity  
+]
+]
+<img src="pictures/Other Frameworks.png" style="float:right; width:200px;">
+
+
+
+
 ---
 
+
+---
 
 # Impacts of Reduced Mangrove Wetlands
 
@@ -262,8 +291,110 @@ Our comprehensive approach to mangrove wetland monitoring and conservation in th
 
 Each methodology employs advanced remote sensing, GIS, and field survey techniques to provide a holistic understanding of mangrove wetland ecosystems.
 
+
 ---
----
+class: 
+
+# 1 wetland plant community classification
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 20px 15px;
+}
+
+.box {
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.box-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 5px;
+}
+
+.box-subtitle {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.box li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 1.3;
+}
+
+.box1 { background-color: rgba(255, 220, 220, 0.7); }
+.box2 { background-color: rgba(255, 235, 205, 0.7); }
+.box3 { background-color: rgba(255, 248, 205, 0.7); }
+.box4 { background-color: rgba(220, 255, 220, 0.7); }
+.box5 { background-color: rgba(220, 235, 255, 0.7); }
+.box6 { background-color: rgba(245, 220, 245, 0.7); }
+</style>
+
+<div class="grid-container">
+  <div class="box box1">
+    <div class="box-title">1. Data Collection and Preprocessing</div>
+    <ul>
+      <li>Obtain Sentinel-1 Level-1 GRD SAR images, Sentinel-2 MSI Level-2A images, and 12.5m resolution DEM data from the PIE-Engine Cloud Platform</li>
+      <li>Mosaicking and clipping</li>
+      <li>Thermal noise removal, orbit correction, filtering, radiometric calibration, Doppler terrain correction, and speckle reduction</li>
+      <li>Cloud masking</li>
+    </ul>
+  </div>
+  
+  <div class="box box2">
+    <div class="box-title">2. Multi-Source Feature Extraction</div>
+    <ul>
+      <li>Time-series stacks of NDVI, IRECI, and NDWI were derived from preprocessed Sentinel-2 images to analyze vegetation phenology and seasonal variations</li>
+    </ul>
+  </div>
+  
+  <div class="box box3">
+    <div class="box-title">3. Feature Selection</div>
+    <ul>
+      <li> A Random Forest (RF) model was trained on all features to assess their contribution to classification, selecting the most discriminative ones for analysis</li>
+    </ul>
+  </div>
+  
+  <div class="box box4">
+    <div class="box-title">4. Classification</div>
+    <ul>
+      <li>A Random Forest model was applied for vegetation community classification</li>
+    </ul>
+  </div>
+  
+  <div class="box box5">
+    <div class="box-title">5. Optimization of Classification Results</div>
+    <ul>
+      <li>A majority filter was used to remove noise, smooth class boundaries, merge adjacent categories, and reclassify isolated pixel regions</li>
+    </ul>
+  </div>
+  
+  <div class="box box6">
+    <div class="box-title">6. Accuracy measurement</div>
+    <ul>
+      <li>GPS was used to locate the distribution of wetland plant types in shallow water areas, while UAVs were employed to capture aerial imagery of wetlands in deeper water areas, providing field data for the calculation of classification accuracy</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">Wetlands — The Kidney of the Earth</div>
+
 ---
 class: 
 
@@ -393,158 +524,36 @@ class:
 
 <div class="footer">Wetlands — The Kidney of the Earth</div>
 
----
-class: 
-
-# 2 Mangrove Wetland Carbon Storage Monitoring
-
-<style>
-.title-slide {
-  background-color: #1a3a3a;
-  color: white;
-  padding: 15px 0;
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
-  margin: 20px 15px;
-}
-
-.box {
-  border-radius: 8px;
-  padding: 15px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.box-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 8px;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-  padding-bottom: 5px;
-}
-
-.box-subtitle {
-  font-size: 14px;
-  font-style: italic;
-  margin-bottom: 8px;
-  color: #444;
-}
-
-.box ul {
-  margin: 0;
-  padding-left: 20px;
-}
-
-.box li {
-  font-size: 14px;
-  margin-bottom: 5px;
-  line-height: 1.3;
-}
-
-.box1 { background-color: rgba(255, 220, 220, 0.7); }
-.box2 { background-color: rgba(255, 235, 205, 0.7); }
-.box3 { background-color: rgba(255, 248, 205, 0.7); }
-.box4 { background-color: rgba(220, 255, 220, 0.7); }
-.box5 { background-color: rgba(220, 235, 255, 0.7); }
-.box6 { background-color: rgba(245, 220, 245, 0.7); }
-
-.footer {
-  position: fixed;
-  bottom: 15px;
-  width: 100%;
-  text-align: center;
-  font-style: italic;
-  font-size: 16px;
-}
-</style>
-
-
-<div class="grid-container">
-  <div class="box box1">
-    <div class="box-title">1. Mangrove Distribution Mapping</div>
-    <div class="box-subtitle">Remote Sensing and Planning:</div>
-    <ul>
-      <li>Acquire and preprocess satellite imagery</li>
-      <li>Identify mangrove using vegetation indices</li>
-      <li>Classify mangrove structures</li>
-      <li>Design stratified random sampling</li>
-      <li>Consider tidal factors and accessibility</li>
-    </ul>
-  </div>
-  
-  <div class="box box2">
-    <div class="box-title">2. Soil Carbon Pool Assessment</div>
-    <div class="box-subtitle">Carbon Pool Quantification:</div>
-    <ul>
-      <li>Collect soil core samples (1m+ deep)</li>
-      <li>Record soil characteristics</li>
-      <li>Determine bulk density and carbon content</li>
-      <li>Calculate soil carbon storage (tC/ha)</li>
-      <li>Analyze vertical carbon distribution</li>
-    </ul>
-  </div>
-  
-  <div class="box box3">
-    <div class="box-title">3. Vegetation Carbon Pool Assessment</div>
-    <div class="box-subtitle">Biomass Calculation:</div>
-    <ul>
-      <li>Measure DBH and tree height</li>
-      <li>Apply allometric equations</li>
-      <li>Assess above/belowground biomass</li>
-      <li>Collect litter and deadwood samples</li>
-      <li>Calculate vegetation carbon storage</li>
-    </ul>
-  </div>
-  
-  <div class="box box4">
-    <div class="box-title">4. Carbon Cycle Monitoring</div>
-    <div class="box-subtitle">Dynamic Assessment:</div>
-    <ul>
-      <li>Establish permanent sample plots</li>
-      <li>Measure greenhouse gas flux</li>
-      <li>Analyze decomposition rates</li>
-      <li>Implement data quality control</li>
-      <li>Evaluate carbon input/output balance</li>
-    </ul>
-  </div>
-  
-  <div class="box box5">
-    <div class="box-title">5. Comprehensive Carbon Storage</div>
-    <div class="box-subtitle">Integrated Calculation:</div>
-    <ul>
-      <li>Integrate all carbon pool data</li>
-      <li>Distinguish carbon pool proportions</li>
-      <li>Calculate spatial-temporal changes</li>
-      <li>Assess differences between forest types</li>
-    </ul>
-  </div>
-  
-  <div class="box box6">
-    <div class="box-title">6. Spatial Model Construction</div>
-    <div class="box-subtitle">Scale Extension:</div>
-    <ul>
-      <li>Link field data with remote sensing</li>
-      <li>Apply machine learning algorithms</li>
-      <li>Generate carbon storage maps</li>
-      <li>Analyze human and climate impacts</li>
-      <li>Develop conservation support tools</li>
-    </ul>
-  </div>
-</div>
-
-<div class="footer">Wetlands — The Kidney of the Earth</div>
 
 ---
 
-# Data
+# Project Data Overview
 
-[This section is reserved for future data analysis and visualization]
+.pull-left[
+1. **Remote Sensing & GIS Data**  
+   - Sentinel-1 Level-1 GRD SAR imagery  
+   - Sentinel-2 MSI Level-2A imagery  
+   - Landsat imagery  
+   - ALOS PALSAR imagery  
+   - DEM (12.5m resolution) and LULC data  
+
+<br>
+
+3. **Hydro & Environmental Data**  
+   - Water and tidal records  
+]
+
+.pull-right[ 
+2. **Field Data**  
+   - GPS positioning data  
+   - UAV aerial imagery  
+   - Tree measurement data (DBH, tree height)  
+   - Soil core sampling records  
+   - Greenhouse gas measurement data (CO₂, CH₄)  
+   - Water quality data (pH, NH₄⁺-N, NO₃⁻-N)  
+   - Heavy metal pollution data (Cd, Cr, Zn, Pb)  
+]
+
 
 ---
 
@@ -582,12 +591,5 @@ In urbanized areas, frequent human activities interfere with the natural carbon 
 
 Establish buffer zone monitoring points, quantify human interference factors, and develop carbon storage correction models adapted to the urbanized environment.
 ]
+
 ---
-
-class: center, middle
-
-# Thank You
-
-## Questions?
-
-### Contact: SEE THE UNSEEN

@@ -1,0 +1,163 @@
+---
+output:
+  xaringan::moon_reader:
+    css: [default]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+<style>
+/* 全局背景 */
+.remark-slide-content {
+  background-color: #f2f2f2;
+  padding-top: 0;
+}
+
+/* 顶部横条 */
+.top-header {
+  background-color: #374b43;
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 0 -30px 20px -30px;
+}
+
+/* 页脚 */
+.footer {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+}
+
+/* 网格布局 */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 0 15px;
+}
+
+/* 卡片样式 */
+.box {
+  border-radius: 8px;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.box-title {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+  padding-bottom: 5px !important;
+}
+
+.box-subtitle {
+  font-size: 13px !important;
+  font-style: italic !important;
+  margin-bottom: 8px !important;
+  color: #444 !important;
+}
+
+.box ul {
+  margin: 0 !important;
+  padding-left: 20px !important;
+}
+
+.box li {
+  font-size: 13px !important;
+  margin-bottom: 5px !important;
+  line-height: 1.3 !important;
+}
+
+.box1 { background-color: rgba(255, 220, 220, 0.7); }
+.box2 { background-color: rgba(255, 235, 205, 0.7); }
+.box3 { background-color: rgba(255, 248, 205, 0.7); }
+.box4 { background-color: rgba(220, 255, 220, 0.7); }
+.box5 { background-color: rgba(220, 235, 255, 0.7); }
+.box6 { background-color: rgba(245, 220, 245, 0.7); }
+</style>
+
+<div class="top-header">3 Mangrove Restoration Site Identification</div>
+
+<div class="grid-container">
+  <div class="box box1">
+    <div class="box-title">1. Data Collection & Preprocessing</div>
+    <div class="box-subtitle">Remote Sensing & Indices:</div>
+    <ul>
+      <li>Landsat, Sentinel-2, ALOS PALSAR imagery</li>
+      <li>DEM, LULC, water quality, pollution data</li>
+      <li>NDVI, NDWI, MSAVI2, EVI computation</li>
+      <li>Variable importance via Random Forest</li>
+    </ul>
+  </div>
+  <div class="box box2">
+    <div class="box-title">2. Degraded Mangrove Identification</div>
+    <div class="box-subtitle">Multi-temporal & Pollution Analysis:</div>
+    <ul>
+      <li>NDVI/NDWI trend analysis</li>
+      <li>LUCC change detection</li>
+      <li>Heavy metal (Cd, Cr, Zn, Pb) in sediments</li>
+    </ul>
+  </div>
+  <div class="box box3">
+    <div class="box-title">3. Ecological Health Assessment</div>
+    <div class="box-subtitle">Soil, Water & Microbes:</div>
+    <ul>
+      <li>Measure SOC, δ13C, NO3⁻-N</li>
+      <li>Analyze N-fixing & denitrifying bacteria</li>
+      <li>Integrate tidal & pH indicators</li>
+    </ul>
+  </div>
+  <div class="box box4">
+    <div class="box-title">4. Restoration Priority Zoning</div>
+    <div class="box-subtitle">GIS & Model Ranking:</div>
+    <ul>
+      <li>DEM & hydrology-based classification</li>
+      <li>B1–B12 bands + NDVI time series</li>
+      <li>TOPSIS multi-criteria ranking</li>
+      <li>Microbial network resilience analysis</li>
+    </ul>
+  </div>
+  <div class="box box5">
+    <div class="box-title">5. Deep Learning Classification</div>
+    <div class="box-subtitle">APSMnet Model:</div>
+    <ul>
+      <li>ResConv for local feature extraction</li>
+      <li>Transformer for spatial dependency</li>
+      <li>CRF for boundary refinement</li>
+      <li>Map LII & AWLII restoration zones</li>
+    </ul>
+  </div>
+  <div class="box box6">
+    <div class="box-title">6. Monitoring & Evaluation</div>
+    <div class="box-subtitle">Remote Sensing & Accuracy:</div>
+    <ul>
+      <li>UAV, Landsat, Sentinel-2 surveys</li>
+      <li>Sensor-based pH, NH4⁺-N, NO3⁻-N monitoring</li>
+      <li>Confusion Matrix, OA, Kappa (>90%)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">Wetlands — The Kidney of the Earth</div>
+
+
+<!-- 添加右下角图标 -->
+<style>
+.logo {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 60px;
+}
+</style>
+
+<img src="logo.png" class="logo">

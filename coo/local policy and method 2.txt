@@ -1,0 +1,127 @@
+class: 
+
+# 2 Mangrove Wetland Carbon Storage Monitoring
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 20px 15px;
+}
+
+.box {
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.box-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 5px;
+}
+
+.box-subtitle {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.box li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 1.3;
+}
+
+.box1 { background-color: rgba(255, 220, 220, 0.7); }
+.box2 { background-color: rgba(255, 235, 205, 0.7); }
+.box3 { background-color: rgba(255, 248, 205, 0.7); }
+.box4 { background-color: rgba(220, 255, 220, 0.7); }
+.box5 { background-color: rgba(220, 235, 255, 0.7); }
+.box6 { background-color: rgba(245, 220, 245, 0.7); }
+</style>
+
+<div class="grid-container">
+  <div class="box box1">
+    <div class="box-title">1. Mangrove Distribution Mapping</div>
+    <div class="box-subtitle">Remote Sensing and Planning:</div>
+    <ul>
+      <li>Acquire and preprocess satellite imagery</li>
+      <li>Identify mangrove using vegetation indices</li>
+      <li>Classify mangrove structures</li>
+      <li>Design stratified random sampling</li>
+      <li>Consider tidal factors and accessibility</li>
+    </ul>
+  </div>
+  
+  <div class="box box2">
+    <div class="box-title">2. Soil Carbon Pool Assessment</div>
+    <div class="box-subtitle">Carbon Pool Quantification:</div>
+    <ul>
+      <li>Collect soil core samples (1m+ deep)</li>
+      <li>Record soil characteristics</li>
+      <li>Determine bulk density and carbon content</li>
+      <li>Calculate soil carbon storage (tC/ha)</li>
+      <li>Analyze vertical carbon distribution</li>
+    </ul>
+  </div>
+  
+  <div class="box box3">
+    <div class="box-title">3. Vegetation Carbon Pool Assessment</div>
+    <div class="box-subtitle">Biomass Calculation:</div>
+    <ul>
+      <li>Measure DBH and tree height</li>
+      <li>Apply allometric equations</li>
+      <li>Assess above/belowground biomass</li>
+      <li>Collect litter and deadwood samples</li>
+      <li>Calculate vegetation carbon storage</li>
+    </ul>
+  </div>
+  
+  <div class="box box4">
+    <div class="box-title">4. Carbon Cycle Monitoring</div>
+    <div class="box-subtitle">Dynamic Assessment:</div>
+    <ul>
+      <li>Establish permanent sample plots</li>
+      <li>Measure greenhouse gas flux</li>
+      <li>Analyze decomposition rates</li>
+      <li>Implement data quality control</li>
+      <li>Evaluate carbon input/output balance</li>
+    </ul>
+  </div>
+  
+  <div class="box box5">
+    <div class="box-title">5. Comprehensive Carbon Storage</div>
+    <div class="box-subtitle">Integrated Calculation:</div>
+    <ul>
+      <li>Integrate all carbon pool data</li>
+      <li>Distinguish carbon pool proportions</li>
+      <li>Calculate spatial-temporal changes</li>
+      <li>Assess differences between forest types</li>
+    </ul>
+  </div>
+  
+  <div class="box box6">
+    <div class="box-title">6. Spatial Model Construction</div>
+    <div class="box-subtitle">Scale Extension:</div>
+    <ul>
+      <li>Link field data with remote sensing</li>
+      <li>Apply machine learning algorithms</li>
+      <li>Generate carbon storage maps</li>
+      <li>Analyze human and climate impacts</li>
+      <li>Develop conservation support tools</li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">Wetlands — The Kidney of the Earth</div>

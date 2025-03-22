@@ -1,0 +1,109 @@
+---
+output:
+  xaringan::moon_reader:
+    css: [default]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+<style>
+.remark-slide-content {
+  background-color: #f2f2f2;
+  padding-top: 0;
+}
+.top-header {
+  background-color: #374b43;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 0 -30px 20px -30px;
+}
+.footer {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+}
+.logo {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  width: 60px;
+}
+.grid-two-cols {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 25px;
+}
+.grid-two-cols .col {
+  flex: 1;
+}
+.grid-two-cols ul {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+</style>
+
+<div class="top-header">1 Overview of the Greater Bay Area (GBA)</div>
+
+<div class="grid-two-cols">
+  <div class="col">
+    <ul>
+      <li>📍 <strong>Location:</strong> Southern coast of China, Pearl River Delta</li>
+      <li>🏙️ <strong>Constituents:</strong> 9 Mainland cities:
+        Guangzhou, Shenzhen, Zhuhai, Foshan, Zhongshan, Dongguan, Huizhou, Jiangmen, Zhaoqing</li>
+      <li>🎌 <strong>Special Regions:</strong> Hong Kong and Macao (SARs)</li>
+      <li>👥 <strong>Total Population:</strong> ~70 million</li>
+      <li>💰 <strong>Economic Importance:</strong> One of China’s most dynamic & innovative economic zones</li>
+      <li>🌪️ <strong>Climate Vulnerabilities:</strong> Frequent typhoons, heavy rainfall, urban flooding, and droughts</li>
+    </ul>
+  </div>
+  <div class="col">
+    <img src="gba_map.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);"/>
+  </div>
+</div>
+
+<div class="footer">Wetlands — The Kidney of the Earth</div>
+<img src="logo.png" class="logo">
+
+---
+
+<div class="top-header">2 Mangroves and Climate in the Greater Bay Area</div>
+
+<img src="mangrove_zones.png" style="width: 85%; display: block; margin: 0 auto; border-radius: 8px;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.2);"/>
+
+<div class="grid-two-cols">
+  <div class="col">
+    <ul>
+      <li>🌤️ <strong>Climate:</strong> Subtropical and humid year-round</li>
+      <li>🌡️ <strong>Avg. Temperature:</strong> 21–23°C</li>
+      <li>🌧️ <strong>Annual Rainfall:</strong> Over 1500 mm</li>
+      <li>🪸 <strong>Mangrove Habitat:</strong> Coastal intertidal zones</li>
+    </ul>
+  </div>
+  <div class="col">
+    <ul>
+      <li>🌿 <strong>Ecological Functions of Mangroves:</strong>
+        <ul>
+          <li>Reduce wave energy & wind impact</li>
+          <li>Stabilize shorelines & prevent erosion</li>
+          <li>Enhance biodiversity & nursery habitats</li>
+          <li>Purify seawater & trap pollutants</li>
+          <li>Sequester large amounts of carbon</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">Wetlands — The Kidney of the Earth</div>
+<img src="logo.png" class="logo">
