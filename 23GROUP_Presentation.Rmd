@@ -1,7 +1,7 @@
 ---
 title: "Wetlands – The Kidney of the Earth"
 subtitle: "Monitoring and Conservation of Mangrove Wetlands in Greater Bay Area"
-author: "CASA0023 Group Project: Wenkai Song, Yifan Feng, Ruoyun Yu, Huangchen Luo, Ruonan Zhu"
+author: "SEE THE UNSEEN: Wenkai Song, Yifan Feng, Ruoyun Yu, Huangchen Luo, Ruonan Zhu"
 date: "25/03/2025"
 output:
   xaringan::moon_reader:
@@ -31,17 +31,63 @@ xaringanExtra::use_share_again()
 xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocket"))
 ```
 
-class: center, middle
-background-image: url("pictures/3.jpg")
+class: center, middle, inverse
+background-image: url(pictures/5.jpg)
 background-size: cover
 background-position: center
 
+.content-overlay[
 # Wetlands – The Kidney of the Earth
+
 ## Monitoring and Conservation of Mangrove Wetlands in Greater Bay Area
 
-### CASA0023 Group Project
-### Wenkai Song, Yifan Feng, Ruoyun Yu, Huangchen Luo, Ruonan Zhu
-### 25/03/2025
+### SEE THE UNSEEN
+
+#### Wenkai Song, Yifan Feng, Ruoyun Yu, Huangchen Luo, Ruonan Zhu
+
+#### 25/03/2025
+]
+
+.footnote[1/16]
+
+<style>
+.content-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.remark-slide-content h1 {
+  color: #ffffff;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.remark-slide-content h2 {
+  color: #8cc63f;
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+.remark-slide-content h3, .remark-slide-content h4 {
+  color: #ffffff;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+</style>
+
 
 ---
 
